@@ -1,5 +1,6 @@
-describe('countTo', function() {
-  it("it returns the numbers between 0 and given number", function() {
-      expect(countTo(7)).to.eql([1,2,3,4,5,6,7]);
-  })
-});
+
+  describe('countBy', function(){
+    it("returns the user inputted number counted by the multiples of the second user input", function() {
+      expect(countBy(5, 20)).to.eql([5, 10, 15, 20]);
+    })
+  });
